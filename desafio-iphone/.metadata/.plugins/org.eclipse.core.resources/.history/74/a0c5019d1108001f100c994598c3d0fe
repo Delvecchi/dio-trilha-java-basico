@@ -1,0 +1,13 @@
+package usuario;
+
+import iphone.Iphone;
+import iphone.aparelhotelefonico.AparelhoTelefonico;
+import iphone.aparelhotelefonico.Telefone;
+
+public class Usuario {
+	public static void main(String[] args) {
+		AparelhoTelefonico aparelhoTelefonico = new Iphone();
+		
+		aparelhoTelefonico.atender();;
+	}
+}

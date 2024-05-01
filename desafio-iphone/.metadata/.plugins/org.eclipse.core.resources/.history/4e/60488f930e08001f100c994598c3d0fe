@@ -1,0 +1,23 @@
+package iphone.aparelhotelefonico;
+
+public class Telefone implements AparelhoTelefonico{
+
+	
+	public void tocar() {
+		System.out.println("Tocando");
+		
+	}
+
+	
+	public void pausar() {
+		System.out.println("Pausando");
+		
+	}
+
+	
+	public void selecionarMusica() {
+		System.out.println("Selecionando Musica");
+		
+	}
+
+}
